@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/a68057911c.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Rohan Raj</title>
+
+    <!-- CSS Files  -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.2/swiper-bundle.css"
+    />
+
+  </head>
+  <body>
+    <!-- Navbar  -->
+
+    <nav class="navbar">
+      <h1 class="logo">
+        <a href="#"><img src="./img/logo.png" alt="#"></a>
+      </h1>
+      <ul class="nav-links-container">
+        <input type="checkbox" id="check" />
+        <span class="menu">
+          <li class="nav-links"><a href="#about-section" class="links">About</a></li>
+          <li class="nav-links"><a href="#project-section" class="links">Work</a></li>
+          <!-- <li class="nav-links"><a href="#contact-section" class="links">Contact</a></li> -->
+          <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+        </span>
+        <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+      </ul>
+
+      <!-- Toggle Button -->
+
+      <!-- <div class="toggle-btn active">
+        <i class="fa-solid fa-bars"></i>
+      </div> -->
+    </nav>
+
+    <!-- Header -->
+
+    <header class="header" id="home-section">
+      <div class="content">
+        <h1 class="header-heading">
+          Hello, I'm
+          <span class="brand-name"><span>Rohan Raj</span></span>
+        </h1>
+        <h1 class="header-bottom">Web Developer</h1>
+        <a href="mailto:rohan.raj0305@gmail.com" target="_blank" class="btn">Contact Me</a>
+        <!-- <p class="more">
+          <i class="fa-solid fa-angles-down"></i>
+          More about me
+        </p> -->
+      </div>
+
+      <div class="header-img-container">
+        <div class="circle"></div>
+        <img src="img/header-img2.png" class="header-img" alt="" />
+      </div>
+    </header>
+
+    <!-- Project Section -->
+
+    <section id="project-section">
+      <h1 class="project-heading">Projects</h1>
+
+      <!-- Project Cards -->
+
+      <div class="blog-slider">
+        <div class="blog-slider__wrp swiper-wrapper">
+          
+        <div class="blog-slider__item swiper-slide">
+          <div class="blog-slider__img">
+            <img src="img/Project 1.png">
+          </div>
+          <div class="blog-slider__content">
+
+            <div class="blog-slider__title">SPN Realtors</div>
+            <div class="blog-slider__text">
+              Client wanted a real-estate website which is minimal and modern
+              looking.<br>
+              <br>
+              Completed in 4 weeks time.<br>
+              <br>
+              Tools used:<br>
+              <br>
+              -React-js<br>
+              -CSS<br>
+              <br>
+              Hosted through Hostgator<br>
+            </div>
+            <a href="https://spnrealtors.com/" target="_blank" class="blog-slider__btn">Visit Site</a>
+          </div>
+        </div>
+
+        <!-- <div class="blog-slider__item swiper-slide">
+          <div class="blog-slider__img">
+            <img src="img/Project 2 1.png" alt="" />
+          </div>
+          <div class="blog-slider__content">
+
+            <div class="blog-slider__title">Coinbase Clone</div>
+            <div class="blog-slider__text">
+              Coinbase clone with metamask authentication.<br>
+              <br>
+              Completed in 2 weeks time.<br>
+              <br>
+              Tools used:<br>
+              <br>
+              -React-js<br>
+              -Sanity-js<br>
+              -Metamask<br>
+            </div>
+            <a href="#" target="_blank" class="blog-slider__btn">View Github</a>
+          </div>
+        </div> -->
+
+        <div class="blog-slider__item swiper-slide">
+          <div class="blog-slider__img">
+            <img src="img/weather-app.png" >
+          </div>
+          <div class="blog-slider__content">
+
+            <div class="blog-slider__title">Weather App</div>
+            <div class="blog-slider__text">
+              A basic React JS weather app using OpenWeatherMap API with axios to connect with our API.
+            </div>
+            <a href="https://github.com/Anbraxus/weather-app" target="_blank"class="blog-slider__btn">View Github</a>
+          </div>
+        </div>
+
+        <div class="blog-slider__pagination"></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+
+    <section id="about-section">
+      <h1 class="heading">About Me</h1>
+
+      <div class="about-container">
+        <!-- <div class="image-container">
+          <div class="square"></div>
+          <img src="img/header-img.png" class="about-img" alt="" />
+          <div class="social-links">
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+            <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+          </div>
+        </div> -->
+
+        <!-- Info Section -->
+        <div class="info">
+          <p>
+            A rigorous, task-driven individual with substantial experience in customer service, front-end development. Adept at leveraging
+superior communicative and interpersonal skills to interact with diverse individuals and groups at all organization levels.
+          </p>
+          <a href="./assests/Rohan's Resume.pdf" class="about-btn">View Resume</a>
+        </div>
+      </div>
+
+      <!-- Skills -->
+
+      <!-- <h2 class="sub-heading">Skills</h2>
+
+      <div class="skills">
+        <p class="skill-name">HTML</p>
+        <p class="skill-name">CSS</p>
+        <p class="skill-name">JavaScript</p>
+        <p class="skill-name">React-JS</p>
+      </div> -->
+
+      <!-- TimeLine -->
+
+      <h2 class="sub-heading">Education and Experiences</h2>
+
+      <div class="timeline-container">
+        <div class="card-container">
+          <div class="card">
+            <h1 class="card-title">2022 - Present</h1>
+            <p class="card-body">Amity University Online</p>
+            <p class="card-info">Bachelor of Computer Applications</p>
+          </div>
+        </div>
+        <div class="card-container">
+          <div class="card">
+            <h1 class="card-title">2018 - 2019</h1>
+            <p class="card-body">Amazon</p>
+            <p class="card-info">Account Specialist, 2018 - 2019</p>
+            <ul class="card-list">
+              <li>
+                Worked for NA domain as Voice/Email Support
+              </li>
+              <li>
+                Handled 90+ calls/emails daily with duties including retrieving
+                customer data, presenting relevant product information and
+                cancelling services.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- <div class="card-container">
+          <div class="card">
+            <h1 class="card-title">2022 - Present</h1>
+            <p class="card-body">Amity University Online</p>
+            <p class="card-info">Bachelor of Computer Applications</p>
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- Contact Section  -->
+
+    <!-- <section id="contact-section">
+      <h1 class="heading">Let's get in touch</h1>
+      <div class="form">
+        <form onSubmit="sendEmail(); reset(); return false; ">
+          <input type="text" id="name" placeholder="name" required>
+          <input type="email" id="email" placeholder="email" required>
+          <textarea id="message" placeholder="message"></textarea>
+          <button type="submit" class="contact-btn">Submit</button>
+        </form>
+      </div>
+    </section> -->
+
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.2/swiper-bundle.min.js">
+    </script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+    <footer>
+      <div class="footer-content">
+        <h1>Let's get in touch</h1>
+        <p>Now that you know about me, let me know if you are interested to work with me.</p>
+        <p><a href="mailto:rohan.raj0305@gmail.com" target="_blank""><i class="fa-solid fa-envelope"></i> rohan.raj0305@gmail.com</a></p>
+        <ul class="socials">
+          <li><a href="https://www.linkedin.com/in/rohanraj03/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
+          <li><a href="https://github.com/Anbraxus" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a></li>
+          <!-- <li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter fa-2xl"></i></a></li> -->
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
